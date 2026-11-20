@@ -1,0 +1,57 @@
+Year,Quarter,Segment,Sales_CHF_m,Basis
+2024,Q1,Zone AMS,8639,Reported
+2024,Q2,Zone AMS,9182,Derived (cumulative difference)
+2024,Q3,Zone AMS,8746,Derived (cumulative difference)
+2024,Q4,Zone AMS,9568,Derived (cumulative difference)
+2024,Q1,Zone AOA,5344,Reported
+2024,Q2,Zone AOA,5247,Derived (cumulative difference)
+2024,Q3,Zone AOA,5050,Derived (cumulative difference)
+2024,Q4,Zone AOA,5536,Derived (cumulative difference)
+2024,Q1,Zone EUR,4248,Reported
+2024,Q2,Zone EUR,4094,Derived (cumulative difference)
+2024,Q3,Zone EUR,4114,Derived (cumulative difference)
+2024,Q4,Zone EUR,4626,Derived (cumulative difference)
+2024,Q1,Nestlé Health Science,1511,Reported
+2024,Q2,Nestlé Health Science,1728,Derived (cumulative difference)
+2024,Q3,Nestlé Health Science,1676,Derived (cumulative difference)
+2024,Q4,Nestlé Health Science,1824,Derived (cumulative difference)
+2024,Q1,Nespresso,1503,Reported
+2024,Q2,Nespresso,1593,Derived (cumulative difference)
+2024,Q3,Nespresso,1490,Derived (cumulative difference)
+2024,Q4,Nespresso,1792,Derived (cumulative difference)
+2024,Q1,Nestlé Waters & Premium Beverages,779,Reported
+2024,Q2,Nestlé Waters & Premium Beverages,1031,Derived (cumulative difference)
+2024,Q3,Nestlé Waters & Premium Beverages,955,Derived (cumulative difference)
+2024,Q4,Nestlé Waters & Premium Beverages,786,Derived (cumulative difference)
+2024,Q1,Other businesses,68,Reported
+2024,Q2,Other businesses,78,Derived (cumulative difference)
+2024,Q3,Other businesses,72,Derived (cumulative difference)
+2024,Q4,Other businesses,74,Derived (cumulative difference)
+2025,Q1,Zone AMS,8639,Reported
+2025,Q2,Zone AMS,8315,Derived (cumulative difference)
+2025,Q3,Zone AMS,8340,Derived (cumulative difference)
+2025,Q4,Zone AMS,9188,Derived (cumulative difference)
+2025,Q1,Zone AOA,5539,Reported
+2025,Q2,Zone AOA,4903,Derived (cumulative difference)
+2025,Q3,Zone AOA,4821,Derived (cumulative difference)
+2025,Q4,Zone AOA,5290,Derived (cumulative difference)
+2025,Q1,Zone EUR,4353,Reported
+2025,Q2,Zone EUR,4114,Derived (cumulative difference)
+2025,Q3,Zone EUR,4318,Derived (cumulative difference)
+2025,Q4,Zone EUR,4796,Derived (cumulative difference)
+2025,Q1,Nestlé Health Science,1593,Reported
+2025,Q2,Nestlé Health Science,1632,Derived (cumulative difference)
+2025,Q3,Nestlé Health Science,1624,Derived (cumulative difference)
+2025,Q4,Nestlé Health Science,1702,Derived (cumulative difference)
+2025,Q1,Nespresso,1595,Reported
+2025,Q2,Nespresso,1577,Derived (cumulative difference)
+2025,Q3,Nespresso,1534,Derived (cumulative difference)
+2025,Q4,Nespresso,1775,Derived (cumulative difference)
+2025,Q1,Nestlé Waters & Premium Beverages,809,Reported
+2025,Q2,Nestlé Waters & Premium Beverages,1012,Derived (cumulative difference)
+2025,Q3,Nestlé Waters & Premium Beverages,932,Derived (cumulative difference)
+2025,Q4,Nestlé Waters & Premium Beverages,795,Derived (cumulative difference)
+2025,Q1,Other businesses,73,Reported
+2025,Q2,Other businesses,74,Derived (cumulative difference)
+2025,Q3,Other businesses,72,Derived (cumulative difference)
+2025,Q4,Other businesses,75,Derived (cumulative difference)

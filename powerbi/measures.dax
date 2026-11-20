@@ -1,0 +1,52 @@
+// =============================================================
+// Nestlé reported figures: DAX measures (CHF millions)
+// Tables: product_annual, product_quarterly, segment_annual, segment_quarterly,
+//         growth, financials, dim_product, dim_segment, dim_quarter
+// Relationships (Many-to-one, single direction):
+//   product_annual[Product_Category]    -> dim_product[Product_Category]
+//   product_quarterly[Product_Category] -> dim_product[Product_Category]
+//   segment_annual[Segment]             -> dim_segment[Segment]
+//   segment_quarterly[Segment]          -> dim_segment[Segment]
+//   product_quarterly[Quarter]          -> dim_quarter[Quarter]
+//   segment_quarterly[Quarter]          -> dim_quarter[Quarter]
+// Year is a plain numeric column; use one shared Year slicer (Sync slicers) or a small dim_year table.
+// =============================================================
+
+// ---------- Sales ----------
+Product Sales (CHF m) = SUM ( product_annual[Sales_CHF_m] )
+Segment Sales (CHF m) = SUM ( segment_annual[Sales_CHF_m] )
+Product Quarterly Sales = SUM ( product_quarterly[Sales_CHF_m] )
+Group Sales (CHF m) = SUM ( financials[Sales] )
+
+Product Sales PY =
+CALCULATE ( [Product Sales (CHF m)], FILTER ( ALL ( product_annual[Year] ), product_annual[Year] = MAX ( product_annual[Year] ) - 1 ) )
+Product Sales YoY % = DIVIDE ( [Product Sales (CHF m)] - [Product Sales PY], [Product Sales PY] )
+
+Product Share % =
+DIVIDE ( [Product Sales (CHF m)], CALCULATE ( [Product Sales (CHF m)], ALLSELECTED ( dim_product ) ) )
+Segment Share % =
+DIVIDE ( [Segment Sales (CHF m)], CALCULATE ( [Segment Sales (CHF m)], ALLSELECTED ( dim_segment ) ) )
+
+// Share of the year's sales that falls in the selected quarter(s)
+Quarter Share of Year % =
+DIVIDE (
+    [Product Quarterly Sales],
+    CALCULATE ( [Product Quarterly Sales], ALL ( dim_quarter ) )
+)
+
+// ---------- Growth (values are published percentages, not recomputed) ----------
+Organic Growth % = AVERAGE ( growth[Organic_Growth_pct] ) / 100   // use with a single Year/Name selected
+RIG % = AVERAGE ( growth[RIG_pct] ) / 100
+Pricing % = AVERAGE ( growth[Pricing_pct] ) / 100
+
+// ---------- Group financials ----------
+Net Profit (CHF m) = SUM ( financials[Net_Profit] )
+UTOP Margin % = AVERAGE ( financials[UTOP_Margin_pct] ) / 100
+Basic EPS (CHF) = AVERAGE ( financials[Basic_EPS] )
+Reported YoY % =
+VAR Cur = SUM ( financials[Sales] )
+VAR Prev = CALCULATE ( SUM ( financials[Sales] ), FILTER ( ALL ( financials[Year] ), financials[Year] = MAX ( financials[Year] ) - 1 ) )
+RETURN DIVIDE ( Cur - Prev, Prev )
+
+// ---------- Conditional formatting helper ----------
+Growth Color = IF ( [Organic Growth %] >= 0, "#2a6f97", "#d9822b" )

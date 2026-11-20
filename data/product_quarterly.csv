@@ -1,0 +1,57 @@
+Year,Quarter,Product_Category,Sales_CHF_m,Basis
+2024,Q1,Powdered and Liquid Beverages,5847,Reported
+2024,Q2,Powdered and Liquid Beverages,6194,Derived (cumulative difference)
+2024,Q3,Powdered and Liquid Beverages,5911,Derived (cumulative difference)
+2024,Q4,Powdered and Liquid Beverages,6646,Derived (cumulative difference)
+2024,Q1,Water,701,Reported
+2024,Q2,Water,920,Derived (cumulative difference)
+2024,Q3,Water,853,Derived (cumulative difference)
+2024,Q4,Water,706,Derived (cumulative difference)
+2024,Q1,Milk products and Ice cream,2605,Reported
+2024,Q2,Milk products and Ice cream,2584,Derived (cumulative difference)
+2024,Q3,Milk products and Ice cream,2459,Derived (cumulative difference)
+2024,Q4,Milk products and Ice cream,2749,Derived (cumulative difference)
+2024,Q1,Nutrition and Health Science,3680,Reported
+2024,Q2,Nutrition and Health Science,3957,Derived (cumulative difference)
+2024,Q3,Nutrition and Health Science,3676,Derived (cumulative difference)
+2024,Q4,Nutrition and Health Science,3824,Derived (cumulative difference)
+2024,Q1,Prepared dishes and cooking aids,2626,Reported
+2024,Q2,Prepared dishes and cooking aids,2634,Derived (cumulative difference)
+2024,Q3,Prepared dishes and cooking aids,2566,Derived (cumulative difference)
+2024,Q4,Prepared dishes and cooking aids,2885,Derived (cumulative difference)
+2024,Q1,Confectionery,2043,Reported
+2024,Q2,Confectionery,1802,Derived (cumulative difference)
+2024,Q3,Confectionery,2075,Derived (cumulative difference)
+2024,Q4,Confectionery,2529,Derived (cumulative difference)
+2024,Q1,PetCare,4590,Reported
+2024,Q2,PetCare,4862,Derived (cumulative difference)
+2024,Q3,PetCare,4563,Derived (cumulative difference)
+2024,Q4,PetCare,4867,Derived (cumulative difference)
+2025,Q1,Powdered and Liquid Beverages,6124,Reported
+2025,Q2,Powdered and Liquid Beverages,6184,Derived (cumulative difference)
+2025,Q3,Powdered and Liquid Beverages,6135,Derived (cumulative difference)
+2025,Q4,Powdered and Liquid Beverages,6701,Derived (cumulative difference)
+2025,Q1,Water,722,Reported
+2025,Q2,Water,889,Derived (cumulative difference)
+2025,Q3,Water,820,Derived (cumulative difference)
+2025,Q4,Water,697,Derived (cumulative difference)
+2025,Q1,Milk products and Ice cream,2542,Reported
+2025,Q2,Milk products and Ice cream,2288,Derived (cumulative difference)
+2025,Q3,Milk products and Ice cream,2345,Derived (cumulative difference)
+2025,Q4,Milk products and Ice cream,2523,Derived (cumulative difference)
+2025,Q1,Nutrition and Health Science,3657,Reported
+2025,Q2,Nutrition and Health Science,3580,Derived (cumulative difference)
+2025,Q3,Nutrition and Health Science,3481,Derived (cumulative difference)
+2025,Q4,Nutrition and Health Science,3586,Derived (cumulative difference)
+2025,Q1,Prepared dishes and cooking aids,2660,Reported
+2025,Q2,Prepared dishes and cooking aids,2391,Derived (cumulative difference)
+2025,Q3,Prepared dishes and cooking aids,2394,Derived (cumulative difference)
+2025,Q4,Prepared dishes and cooking aids,2669,Derived (cumulative difference)
+2025,Q1,Confectionery,2192,Reported
+2025,Q2,Confectionery,1770,Derived (cumulative difference)
+2025,Q3,Confectionery,2112,Derived (cumulative difference)
+2025,Q4,Confectionery,2622,Derived (cumulative difference)
+2025,Q1,PetCare,4704,Reported
+2025,Q2,PetCare,4525,Derived (cumulative difference)
+2025,Q3,PetCare,4354,Derived (cumulative difference)
+2025,Q4,PetCare,4823,Derived (cumulative difference)

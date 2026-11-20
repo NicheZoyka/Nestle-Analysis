@@ -1,0 +1,14 @@
+{
+  "name": "Nestle Reporting",
+  "dataColors": ["#2a6f97", "#d9822b", "#5b9a68", "#8e6bb0", "#c9a227", "#b8c0c8"],
+  "background": "#FFFFFF",
+  "foreground": "#2b2f33",
+  "tableAccent": "#2a6f97",
+  "textClasses": {
+    "title": {"fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#2b2f33"},
+    "label": {"fontFace": "Segoe UI", "fontSize": 10, "color": "#2b2f33"}
+  },
+  "visualStyles": {
+    "*": {"*": {"gridline": [{"color": {"solid": {"color": "#e6e9ec"}}}]}}
+  }
+}
